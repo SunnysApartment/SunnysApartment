@@ -16,7 +16,7 @@ from datetime import date, datetime, timezone
 
 USER = "SunnysApartment"
 NAME = "Khaled Omar"
-ARABIC = "\u0645\u0637\u0648\u0651\u0631 \u0648\u064a\u0628"   # "web developer"
+TAGLINE = "Software Engineer"   # top-right label; set "" to hide
 W = 56  # info column width in characters
 
 # ---- editable free-text fields (the ones the API can't know) ----------------
@@ -355,7 +355,7 @@ def render(mode, s):
         f'<circle cx="46" cy="26" r="6" fill="#F2A03D"/>',
         f'<circle cx="66" cy="26" r="6" fill="#3fb950"/>',
         f'<text x="{Wd-34}" y="32" text-anchor="end" fill="{p["ar"]}" '
-        f'font-size="15">{html.escape(ARABIC)}</text>',
+        f'font-size="15">{html.escape(TAGLINE)}</text>',
     ]
     # portrait
     out.append('<g class="art" xml:space="preserve">')
@@ -394,11 +394,21 @@ def selfcheck():
 
 if __name__ == "__main__":
     selfcheck()
+    in_ci = os.environ.get("GITHUB_ACTIONS") == "true"
     try:
         stats = fetch_all()
         print("live stats:", {k: v for k, v in stats.items() if k not in ("weeks", "langs")})
     except Exception as e:
-        print("falling back to demo data:", e)
+        # Locally: fall back so you can preview the layout without a token.
+        # In CI: fail loudly. Silently committing em-dashes would turn a broken
+        # sync into a green run and leave the profile showing placeholders.
+        if in_ci:
+            raise SystemExit(
+                f"\nERROR: could not fetch GitHub stats: {e}\n"
+                "Check that ACCESS_TOKEN is set (Settings > Secrets and variables > Actions)\n"
+                "and that the token has the 'repo' (or 'public_repo') scope.\n"
+            )
+        print("no token -> rendering placeholder locally:", e)
         stats = demo_stats()
     for mode in PALETTES:
         with open(f"{mode}_mode.svg", "w", encoding="utf-8") as f:
