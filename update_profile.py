@@ -22,39 +22,61 @@ W = 56  # info column width in characters
 # ---- editable free-text fields (the ones the API can't know) ----------------
 FIELDS = dict(
     os="macOS, Windows",
-    host="Egypt \u00b7 Remote",              # <- edit if you like
-    role="Full-Stack Web Engineer",
+    host="Egypt \u00b7 Remote",
+    role="Software Engineer & Technical Lead",
+    stack=".NET \u00b7 React \u00b7 WordPress \u00b7 AI \u00b7 Automation",
     ide="Claude Code, VS Code, Cursor",
     real="Arabic, English",
-    focus="Arabic / RTL web \u00b7 self-hosted tools",
-    email="you@example.com",                 # <- your email
-    linkedin="in/your-handle",               # <- your LinkedIn
+    focus="Building scalable digital products",
+    specialty="Arabic / RTL web \u00b7 self-hosted tools",
+    # Contact — leave a value as "" to hide that row entirely.
+    email="",
+    instagram="@khaled__omar",
+    facebook="Always.Sunny.19",
+    linkedin="",
 )
 
-ART = r"""                    ... ...                 
-                  .   .   .:.               
-              .  .-=++++==:. .              
-               -+##%%%%%##*+=. .            
-            ..=###%%%%%%%##**+:..           
-             :**==-=+#%#+----++..           
-             -+:=++=:=#=:=+=-.--            
-            .=: .::::+%*-::.  .=.           
-            .==:..:-+*#*=-:..:-=:.          
-           .-++++*##=:-::=***+++-:          
-           .=+**##*+====--=+*++==:          
-           .=-=+++=-=-------==---.          
-            .:--==+*+=--=++=-:::.           
-              .:::-======--:...             
-               .   ..         .             
-               -.            .:             
-              .-:.  .       .:-:            
-              .:-::.....  ....::            
-               :::::............            
-               .::::...........             
-                .::::.......::              
-                 .--:::::::-:               
-                   ::::::-:.                
-                      ..                    """
+ART = r"""
+                        .:        ..                    
+                      . .=--=. .==:--..                 
+                 ..----...-:-..:==..-===-:              
+              :..::::.     ..     ..:-:-==.             
+            . :..                    ...::.--           
+          --        .:-=+*######*=-:.     .:--.         
+         .-:    .=+#%@@@@@@@@@@@@@@@%#+-.    :.         
+             .=#@@@@@@@@@@@@@@@@@@@@@@@@%+:     .       
+           .+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*:  :-.      
+      ..  -%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%= .. .     
+     -:  =@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+ :.-.    
+    .:  -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+  .-.   
+    .  .#@@@@@@@@%%%%@@@@@@@@@@@@@%%##**#%@@@@@#:  :-   
+   ..  -%@@@%*=:.    :-+#%@@@@@%*=.     . :=%@@#: ....  
+   .  ..#@@#-:=*****=-::-*@@@@@*=::=+**#*++==*@@+   .:  
+       -@@#-+*###%%%%%*+=*%@@@%*:=#%%%%%##*+-.=%@=      
+      .%@%: -+***##****++=#@@@%=+*****#*+==:   :%+=     
+      -+#+    :--=====-:=*@@@@@*=---=-=-.      .##-     
+     :=%%+.         ...:#@@@@@@@*=:.           -=%*     
+     .*%##*-.        .-*%@@@@@@@@#=:.       .-+*##*.    
+      #@%%#*=-::::-=+*#@@@@@@@@%#%%#*+=------=*#%##-.*+ 
+  :=:.%@@%##*****#%%@@@@#==*#*+-.-*%@@@%%##*****%%%=-=- 
+  -+*=%@@@@@@@@@@@@@@@%==-:-::..:-=+%@@@@@@@@@@%%@%*==  
+   .++@@@@@@@@@@@@@@@@%#**##**+*==+*@@@@@@@@@@@@@@%*+*  
+   -%+%@@@@@@@@@@@@@@@@%#%%%#%#%#*+*#%@@@@@@@@%@%%#*+*. 
+   =%*+%@@@@@@@@@@@@%##%@%%%%%%####**+##%%@@%%#%%#*=##  
+   -@#-*#%%@@@@@@@%*++**===+++++==-==--+**######*++=#+  
+    *%-=+*%%%@@@%%*==++*#%%###***##**+==+*###*++++++#:  
+    -%+-++*##%%@%%%%@@@@%#+-....-+*%%%%%%###*+==++=-=   
+     --:++++**#%#%%@@@@@@%%**++*#%@@%%%##**+=-==++:     
+        -==+++****#%%@@@@@@@@%%%%%@@%%#*+=--::----      
+         :---====++*##%%@%@%%#%%#***++===-:.....:       
+            .::-::--=+++***++=====---::::..             
+          .:       ..::.::......  .           ::        
+          .=.                                .=-        
+          .+-.                               :+=        
+          .++-.                             :-+=        
+          .+++-:                           .:-++-       
+           +++==:.                        ..:-=+*=      
+"""
 
 LANG_COLORS = {
     "TypeScript": "#3178c6", "JavaScript": "#f1e05a", "C#": "#178600",
@@ -237,15 +259,19 @@ def info_lines(s):
         kv("Uptime", uptime_txt),
         kv("Host", FIELDS["host"]),
         kv("Kernel", FIELDS["role"]),
+        kv("Stack", FIELDS["stack"]),
         kv("IDE", FIELDS["ide"]),
         [],
         kv("Languages.Code", lang_summary),
         kv("Languages.Real", FIELDS["real"]),
+        kv("Specialty", FIELDS["specialty"]),
         kv("Focus", FIELDS["focus"]),
         [],
         rule("Contact"),
-        kv("Email", FIELDS["email"]),
-        kv("LinkedIn", FIELDS["linkedin"]),
+        *([kv("Email", FIELDS["email"])] if FIELDS["email"] else []),
+        *([kv("LinkedIn", FIELDS["linkedin"])] if FIELDS["linkedin"] else []),
+        *([kv("Instagram", FIELDS["instagram"])] if FIELDS["instagram"] else []),
+        *([kv("Facebook", FIELDS["facebook"])] if FIELDS["facebook"] else []),
         [],
         rule("GitHub Stats"),
         kv2("Repos", (f"{s['repos']} {{Contributed: {s['contributed']}}}"
@@ -303,7 +329,7 @@ def heatmap(s, p, x, y):
 
 def render(mode, s):
     p = PALETTES[mode]
-    Wd, Hd = 900, 650
+    Wd, Hd = 1020, 800
     style = f"""
     @keyframes rise {{ from {{ opacity: 0 }} to {{ opacity: 1 }} }}
     @keyframes blink {{ 0%,49% {{ opacity: 1 }} 50%,100% {{ opacity: 0 }} }}
@@ -328,16 +354,16 @@ def render(mode, s):
         f'<circle cx="26" cy="26" r="6" fill="#ff5f56"/>',
         f'<circle cx="46" cy="26" r="6" fill="#F2A03D"/>',
         f'<circle cx="66" cy="26" r="6" fill="#3fb950"/>',
-        f'<text x="{Wd-24}" y="31" text-anchor="end" fill="{p["ar"]}" '
-        f'font-size="15" direction="rtl">{html.escape(ARABIC)}</text>',
+        f'<text x="{Wd-34}" y="32" text-anchor="end" fill="{p["ar"]}" '
+        f'font-size="15">{html.escape(ARABIC)}</text>',
     ]
     # portrait
     out.append('<g class="art" xml:space="preserve">')
     for i, line in enumerate(ART.strip("\n").split("\n")):
-        out.append(f'<text x="24" y="{70 + i*14}" fill="{p["art"]}">{html.escape(line)}</text>')
+        out.append(f'<text x="26" y="{72 + i*12.4:.1f}" fill="{p["art"]}" font-size="11.5">{html.escape(line)}</text>')
     out.append("</g>")
     # name under portrait
-    out.append(f'<text x="26" y="{70 + 24*14 + 6}" class="ln" style="animation-delay:1.6s" '
+    out.append(f'<text x="26" y="{72 + 39*12.4 + 26:.0f}" class="ln" style="animation-delay:1.6s" '
                f'fill="url(#tt)" font-size="20" font-weight="700">{html.escape(NAME)}</text>')
     # info panel (staggered)
     for i, segs in enumerate(info_lines(s)):
@@ -348,13 +374,13 @@ def render(mode, s):
             else f'<tspan fill="{p[c] if c != "h" else p["h"]}">{html.escape(t)}</tspan>'
             for t, c in segs)
         delay = 0.3 + i * 0.06
-        out.append(f'<text x="440" y="{54 + i*20}" xml:space="preserve" class="ln" '
+        out.append(f'<text x="545" y="{56 + i*20.5:.1f}" xml:space="preserve" class="ln" '
                    f'style="animation-delay:{delay:.2f}s">{spans}</text>')
     # footer widgets
-    out.append(f'<line x1="24" y1="516" x2="{Wd-24}" y2="516" stroke="{p["border"]}"/>')
+    out.append(f'<line x1="24" y1="628" x2="{Wd-26}" y2="628" stroke="{p["border"]}"/>')
     out.append('<g class="foot">')
-    out.append(lang_bar(s, p, 26, 546, 380))
-    out.append(heatmap(s, p, 470, 536))
+    out.append(lang_bar(s, p, 28, 660, 430))
+    out.append(heatmap(s, p, 545, 650))
     out.append("</g>")
     out.append("</svg>")
     return "\n".join(out)
