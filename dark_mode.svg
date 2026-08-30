@@ -57,7 +57,7 @@
 <text x="26" y="582" class="ln" style="animation-delay:1.6s" fill="url(#tt)" font-size="20" font-weight="700">Khaled Omar</text>
 <text x="545" y="56.0" xml:space="preserve" class="ln" style="animation-delay:0.30s"><tspan fill="#58a6ff">sunnysapartment@github </tspan><tspan fill="#484f58">─────────────────────────────────</tspan><tspan class="cur">█</tspan></text>
 <text x="545" y="97.0" xml:space="preserve" class="ln" style="animation-delay:0.42s"><tspan fill="#ffa657">OS: </tspan><tspan fill="#484f58">..................................... </tspan><tspan fill="#c9d1d9">macOS, Windows</tspan></text>
-<text x="545" y="117.5" xml:space="preserve" class="ln" style="animation-delay:0.48s"><tspan fill="#ffa657">Uptime: </tspan><tspan fill="#484f58">............ </tspan><tspan fill="#c9d1d9">6 years, 1 months, 5 days on GitHub</tspan></text>
+<text x="545" y="117.5" xml:space="preserve" class="ln" style="animation-delay:0.48s"><tspan fill="#ffa657">Uptime: </tspan><tspan fill="#484f58">............ </tspan><tspan fill="#c9d1d9">6 years, 1 months, 6 days on GitHub</tspan></text>
 <text x="545" y="138.0" xml:space="preserve" class="ln" style="animation-delay:0.54s"><tspan fill="#ffa657">Host: </tspan><tspan fill="#484f58">................................... </tspan><tspan fill="#c9d1d9">Egypt · Remote</tspan></text>
 <text x="545" y="158.5" xml:space="preserve" class="ln" style="animation-delay:0.60s"><tspan fill="#ffa657">Kernel: </tspan><tspan fill="#484f58">............. </tspan><tspan fill="#c9d1d9">Software Engineer &amp; Technical Lead</tspan></text>
 <text x="545" y="179.0" xml:space="preserve" class="ln" style="animation-delay:0.66s"><tspan fill="#ffa657">Stack: </tspan><tspan fill="#484f58">...... </tspan><tspan fill="#c9d1d9">.NET · React · WordPress · AI · Automation</tspan></text>
@@ -300,11 +300,5 @@
 <rect x="853" y="717" width="9" height="9" rx="2" fill="#161b22"/>
 <rect x="853" y="728" width="9" height="9" rx="2" fill="#161b22"/>
 <rect x="864" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="864" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="864" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="864" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="864" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="864" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="864" y="728" width="9" height="9" rx="2" fill="#161b22"/>
 </g>
 </svg>
