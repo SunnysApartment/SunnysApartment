@@ -57,7 +57,7 @@
 <text x="26" y="582" class="ln" style="animation-delay:1.6s" fill="url(#tt)" font-size="20" font-weight="700">Khaled Omar</text>
 <text x="545" y="56.0" xml:space="preserve" class="ln" style="animation-delay:0.30s"><tspan fill="#0969da">sunnysapartment@github </tspan><tspan fill="#afb8c1">─────────────────────────────────</tspan><tspan class="cur">█</tspan></text>
 <text x="545" y="97.0" xml:space="preserve" class="ln" style="animation-delay:0.42s"><tspan fill="#953800">OS: </tspan><tspan fill="#afb8c1">..................................... </tspan><tspan fill="#24292f">macOS, Windows</tspan></text>
-<text x="545" y="117.5" xml:space="preserve" class="ln" style="animation-delay:0.48s"><tspan fill="#953800">Uptime: </tspan><tspan fill="#afb8c1">........... </tspan><tspan fill="#24292f">6 years, 1 months, 10 days on GitHub</tspan></text>
+<text x="545" y="117.5" xml:space="preserve" class="ln" style="animation-delay:0.48s"><tspan fill="#953800">Uptime: </tspan><tspan fill="#afb8c1">........... </tspan><tspan fill="#24292f">6 years, 1 months, 11 days on GitHub</tspan></text>
 <text x="545" y="138.0" xml:space="preserve" class="ln" style="animation-delay:0.54s"><tspan fill="#953800">Host: </tspan><tspan fill="#afb8c1">................................... </tspan><tspan fill="#24292f">Egypt · Remote</tspan></text>
 <text x="545" y="158.5" xml:space="preserve" class="ln" style="animation-delay:0.60s"><tspan fill="#953800">Kernel: </tspan><tspan fill="#afb8c1">............. </tspan><tspan fill="#24292f">Software Engineer &amp; Technical Lead</tspan></text>
 <text x="545" y="179.0" xml:space="preserve" class="ln" style="animation-delay:0.66s"><tspan fill="#953800">Stack: </tspan><tspan fill="#afb8c1">...... </tspan><tspan fill="#24292f">.NET · React · WordPress · AI · Automation</tspan></text>
@@ -72,7 +72,7 @@
 <text x="545" y="425.0" xml:space="preserve" class="ln" style="animation-delay:1.38s"><tspan fill="#0969da">─ GitHub Stats </tspan><tspan fill="#afb8c1">─────────────────────────────────────────</tspan></text>
 <text x="545" y="445.5" xml:space="preserve" class="ln" style="animation-delay:1.44s"><tspan fill="#953800">Repos: </tspan><tspan fill="#afb8c1">... </tspan><tspan fill="#24292f">61 {Contributed: 0}</tspan><tspan fill="#afb8c1"> | </tspan><tspan fill="#953800">Stars: </tspan><tspan fill="#afb8c1">.............. </tspan><tspan fill="#24292f">0</tspan></text>
 <text x="545" y="466.0" xml:space="preserve" class="ln" style="animation-delay:1.50s"><tspan fill="#953800">Commits: </tspan><tspan fill="#afb8c1">................... </tspan><tspan fill="#24292f">0</tspan><tspan fill="#afb8c1"> | </tspan><tspan fill="#953800">Followers: </tspan><tspan fill="#afb8c1">.......... </tspan><tspan fill="#24292f">0</tspan></text>
-<text x="545" y="486.5" xml:space="preserve" class="ln" style="animation-delay:1.56s"><tspan fill="#953800">Lines of Code: </tspan><tspan fill="#24292f">187,098</tspan><tspan fill="#afb8c1"> ( </tspan><tspan fill="#1a7f37">199,245++</tspan><tspan fill="#afb8c1">, </tspan><tspan fill="#cf222e">12,147--</tspan><tspan fill="#afb8c1"> )</tspan></text>
+<text x="545" y="486.5" xml:space="preserve" class="ln" style="animation-delay:1.56s"><tspan fill="#953800">Lines of Code: </tspan><tspan fill="#24292f">187,099</tspan><tspan fill="#afb8c1"> ( </tspan><tspan fill="#1a7f37">199,246++</tspan><tspan fill="#afb8c1">, </tspan><tspan fill="#cf222e">12,147--</tspan><tspan fill="#afb8c1"> )</tspan></text>
 <line x1="24" y1="628" x2="994" y2="628" stroke="#d0d7de"/>
 <g class="foot">
 <text x="28" y="660" fill="#0969da" font-size="12">─ Languages</text>
@@ -304,5 +304,6 @@
 <rect x="864" y="684" width="9" height="9" rx="2" fill="#ebedf0"/>
 <rect x="864" y="695" width="9" height="9" rx="2" fill="#ebedf0"/>
 <rect x="864" y="706" width="9" height="9" rx="2" fill="#ebedf0"/>
+<rect x="864" y="717" width="9" height="9" rx="2" fill="#ebedf0"/>
 </g>
 </svg>
