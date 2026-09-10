@@ -57,7 +57,7 @@
 <text x="26" y="582" class="ln" style="animation-delay:1.6s" fill="url(#tt)" font-size="20" font-weight="700">Khaled Omar</text>
 <text x="545" y="56.0" xml:space="preserve" class="ln" style="animation-delay:0.30s"><tspan fill="#0969da">sunnysapartment@github </tspan><tspan fill="#afb8c1">─────────────────────────────────</tspan><tspan class="cur">█</tspan></text>
 <text x="545" y="97.0" xml:space="preserve" class="ln" style="animation-delay:0.42s"><tspan fill="#953800">OS: </tspan><tspan fill="#afb8c1">..................................... </tspan><tspan fill="#24292f">macOS, Windows</tspan></text>
-<text x="545" y="117.5" xml:space="preserve" class="ln" style="animation-delay:0.48s"><tspan fill="#953800">Uptime: </tspan><tspan fill="#afb8c1">........... </tspan><tspan fill="#24292f">6 years, 1 months, 16 days on GitHub</tspan></text>
+<text x="545" y="117.5" xml:space="preserve" class="ln" style="animation-delay:0.48s"><tspan fill="#953800">Uptime: </tspan><tspan fill="#afb8c1">........... </tspan><tspan fill="#24292f">6 years, 1 months, 17 days on GitHub</tspan></text>
 <text x="545" y="138.0" xml:space="preserve" class="ln" style="animation-delay:0.54s"><tspan fill="#953800">Host: </tspan><tspan fill="#afb8c1">................................... </tspan><tspan fill="#24292f">Egypt · Remote</tspan></text>
 <text x="545" y="158.5" xml:space="preserve" class="ln" style="animation-delay:0.60s"><tspan fill="#953800">Kernel: </tspan><tspan fill="#afb8c1">............. </tspan><tspan fill="#24292f">Software Engineer &amp; Technical Lead</tspan></text>
 <text x="545" y="179.0" xml:space="preserve" class="ln" style="animation-delay:0.66s"><tspan fill="#953800">Stack: </tspan><tspan fill="#afb8c1">...... </tspan><tspan fill="#24292f">.NET · React · WordPress · AI · Automation</tspan></text>
@@ -303,5 +303,6 @@
 <rect x="864" y="673" width="9" height="9" rx="2" fill="#ebedf0"/>
 <rect x="864" y="684" width="9" height="9" rx="2" fill="#ebedf0"/>
 <rect x="864" y="695" width="9" height="9" rx="2" fill="#ebedf0"/>
+<rect x="864" y="706" width="9" height="9" rx="2" fill="#ebedf0"/>
 </g>
 </svg>
