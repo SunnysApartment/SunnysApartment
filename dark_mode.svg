@@ -57,12 +57,12 @@
 <text x="26" y="582" class="ln" style="animation-delay:1.6s" fill="url(#tt)" font-size="20" font-weight="700">Khaled Omar</text>
 <text x="545" y="56.0" xml:space="preserve" class="ln" style="animation-delay:0.30s"><tspan fill="#58a6ff">sunnysapartment@github </tspan><tspan fill="#484f58">─────────────────────────────────</tspan><tspan class="cur">█</tspan></text>
 <text x="545" y="97.0" xml:space="preserve" class="ln" style="animation-delay:0.42s"><tspan fill="#ffa657">OS: </tspan><tspan fill="#484f58">..................................... </tspan><tspan fill="#c9d1d9">macOS, Windows</tspan></text>
-<text x="545" y="117.5" xml:space="preserve" class="ln" style="animation-delay:0.48s"><tspan fill="#ffa657">Uptime: </tspan><tspan fill="#484f58">........... </tspan><tspan fill="#c9d1d9">6 years, 1 months, 29 days on GitHub</tspan></text>
+<text x="545" y="117.5" xml:space="preserve" class="ln" style="animation-delay:0.48s"><tspan fill="#ffa657">Uptime: </tspan><tspan fill="#484f58">........... </tspan><tspan fill="#c9d1d9">6 years, 1 months, 30 days on GitHub</tspan></text>
 <text x="545" y="138.0" xml:space="preserve" class="ln" style="animation-delay:0.54s"><tspan fill="#ffa657">Host: </tspan><tspan fill="#484f58">................................... </tspan><tspan fill="#c9d1d9">Egypt · Remote</tspan></text>
 <text x="545" y="158.5" xml:space="preserve" class="ln" style="animation-delay:0.60s"><tspan fill="#ffa657">Kernel: </tspan><tspan fill="#484f58">............. </tspan><tspan fill="#c9d1d9">Software Engineer &amp; Technical Lead</tspan></text>
 <text x="545" y="179.0" xml:space="preserve" class="ln" style="animation-delay:0.66s"><tspan fill="#ffa657">Stack: </tspan><tspan fill="#484f58">...... </tspan><tspan fill="#c9d1d9">.NET · React · WordPress · AI · Automation</tspan></text>
 <text x="545" y="199.5" xml:space="preserve" class="ln" style="animation-delay:0.72s"><tspan fill="#ffa657">IDE: </tspan><tspan fill="#484f58">...................... </tspan><tspan fill="#c9d1d9">Claude Code, VS Code, Cursor</tspan></text>
-<text x="545" y="240.5" xml:space="preserve" class="ln" style="animation-delay:0.84s"><tspan fill="#ffa657">Languages.Code: </tspan><tspan fill="#484f58">. </tspan><tspan fill="#c9d1d9">HTML, Python, TypeScript, C#, JavaScript</tspan></text>
+<text x="545" y="240.5" xml:space="preserve" class="ln" style="animation-delay:0.84s"><tspan fill="#ffa657">Languages.Code: </tspan><tspan fill="#484f58">. </tspan><tspan fill="#c9d1d9">HTML, TypeScript, Python, C#, JavaScript</tspan></text>
 <text x="545" y="261.0" xml:space="preserve" class="ln" style="animation-delay:0.90s"><tspan fill="#ffa657">Languages.Real: </tspan><tspan fill="#484f58">........................ </tspan><tspan fill="#c9d1d9">Arabic, English</tspan></text>
 <text x="545" y="281.5" xml:space="preserve" class="ln" style="animation-delay:0.96s"><tspan fill="#ffa657">Specialty: </tspan><tspan fill="#484f58">........ </tspan><tspan fill="#c9d1d9">Arabic / RTL web · self-hosted tools</tspan></text>
 <text x="545" y="302.0" xml:space="preserve" class="ln" style="animation-delay:1.02s"><tspan fill="#ffa657">Focus: </tspan><tspan fill="#484f58">.............. </tspan><tspan fill="#c9d1d9">Building scalable digital products</tspan></text>
@@ -70,31 +70,31 @@
 <text x="545" y="363.5" xml:space="preserve" class="ln" style="animation-delay:1.20s"><tspan fill="#ffa657">Instagram: </tspan><tspan fill="#484f58">............................... </tspan><tspan fill="#c9d1d9">@khaled__omar</tspan></text>
 <text x="545" y="384.0" xml:space="preserve" class="ln" style="animation-delay:1.26s"><tspan fill="#ffa657">Facebook: </tspan><tspan fill="#484f58">.............................. </tspan><tspan fill="#c9d1d9">Always.Sunny.19</tspan></text>
 <text x="545" y="425.0" xml:space="preserve" class="ln" style="animation-delay:1.38s"><tspan fill="#58a6ff">─ GitHub Stats </tspan><tspan fill="#484f58">─────────────────────────────────────────</tspan></text>
-<text x="545" y="445.5" xml:space="preserve" class="ln" style="animation-delay:1.44s"><tspan fill="#ffa657">Repos: </tspan><tspan fill="#484f58">... </tspan><tspan fill="#c9d1d9">68 {Contributed: 0}</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Stars: </tspan><tspan fill="#484f58">.............. </tspan><tspan fill="#c9d1d9">0</tspan></text>
+<text x="545" y="445.5" xml:space="preserve" class="ln" style="animation-delay:1.44s"><tspan fill="#ffa657">Repos: </tspan><tspan fill="#484f58">... </tspan><tspan fill="#c9d1d9">72 {Contributed: 0}</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Stars: </tspan><tspan fill="#484f58">.............. </tspan><tspan fill="#c9d1d9">0</tspan></text>
 <text x="545" y="466.0" xml:space="preserve" class="ln" style="animation-delay:1.50s"><tspan fill="#ffa657">Commits: </tspan><tspan fill="#484f58">................... </tspan><tspan fill="#c9d1d9">0</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Followers: </tspan><tspan fill="#484f58">.......... </tspan><tspan fill="#c9d1d9">0</tspan></text>
-<text x="545" y="486.5" xml:space="preserve" class="ln" style="animation-delay:1.56s"><tspan fill="#ffa657">Lines of Code: </tspan><tspan fill="#c9d1d9">248,483</tspan><tspan fill="#484f58"> ( </tspan><tspan fill="#3fb950">262,930++</tspan><tspan fill="#484f58">, </tspan><tspan fill="#f85149">14,447--</tspan><tspan fill="#484f58"> )</tspan></text>
+<text x="545" y="486.5" xml:space="preserve" class="ln" style="animation-delay:1.56s"><tspan fill="#ffa657">Lines of Code: </tspan><tspan fill="#c9d1d9">269,572</tspan><tspan fill="#484f58"> ( </tspan><tspan fill="#3fb950">284,381++</tspan><tspan fill="#484f58">, </tspan><tspan fill="#f85149">14,809--</tspan><tspan fill="#484f58"> )</tspan></text>
 <line x1="24" y1="628" x2="994" y2="628" stroke="#30363d"/>
 <g class="foot">
 <text x="28" y="660" fill="#58a6ff" font-size="12">─ Languages</text>
 <clipPath id="lc"><rect x="28" y="670" width="430" height="14" rx="4"/></clipPath>
 <g clip-path="url(#lc)">
-<rect x="28.0" y="670" width="304.9" height="14" fill="#e34c26"/>
-<rect x="332.9" y="670" width="37.1" height="14" fill="#3572A5"/>
-<rect x="370.0" y="670" width="35.4" height="14" fill="#3178c6"/>
-<rect x="405.5" y="670" width="25.1" height="14" fill="#178600"/>
-<rect x="430.5" y="670" width="19.3" height="14" fill="#f1e05a"/>
-<rect x="449.8" y="670" width="8.2" height="14" fill="#c1d026"/>
+<rect x="28.0" y="670" width="327.9" height="14" fill="#e34c26"/>
+<rect x="355.9" y="670" width="32.4" height="14" fill="#3178c6"/>
+<rect x="388.3" y="670" width="28.8" height="14" fill="#3572A5"/>
+<rect x="417.2" y="670" width="19.5" height="14" fill="#178600"/>
+<rect x="436.6" y="670" width="15.0" height="14" fill="#f1e05a"/>
+<rect x="451.6" y="670" width="6.4" height="14" fill="#c1d026"/>
 </g>
 <circle cx="32" cy="698" r="4" fill="#e34c26"/>
-<text x="41" y="702" fill="#c9d1d9" font-size="11">HTML 71%</text>
-<circle cx="99.8" cy="698" r="4" fill="#3572A5"/>
-<text x="108.8" y="702" fill="#c9d1d9" font-size="11">Python 9%</text>
-<circle cx="174.2" cy="698" r="4" fill="#3178c6"/>
-<text x="183.2" y="702" fill="#c9d1d9" font-size="11">TypeScript 8%</text>
+<text x="41" y="702" fill="#c9d1d9" font-size="11">HTML 76%</text>
+<circle cx="99.8" cy="698" r="4" fill="#3178c6"/>
+<text x="108.8" y="702" fill="#c9d1d9" font-size="11">TypeScript 8%</text>
+<circle cx="200.6" cy="698" r="4" fill="#3572A5"/>
+<text x="209.6" y="702" fill="#c9d1d9" font-size="11">Python 7%</text>
 <circle cx="275.0" cy="698" r="4" fill="#178600"/>
-<text x="284.0" y="702" fill="#c9d1d9" font-size="11">C# 6%</text>
+<text x="284.0" y="702" fill="#c9d1d9" font-size="11">C# 5%</text>
 <circle cx="323.0" cy="698" r="4" fill="#f1e05a"/>
-<text x="332.0" y="702" fill="#c9d1d9" font-size="11">JavaScript 4%</text>
+<text x="332.0" y="702" fill="#c9d1d9" font-size="11">JavaScript 3%</text>
 <text x="545" y="650" fill="#58a6ff" font-size="12">─ Contribution activity</text>
 <rect x="545" y="662" width="9" height="9" rx="2" fill="#161b22"/>
 <rect x="545" y="673" width="9" height="9" rx="2" fill="#161b22"/>
@@ -302,5 +302,6 @@
 <rect x="864" y="662" width="9" height="9" rx="2" fill="#161b22"/>
 <rect x="864" y="673" width="9" height="9" rx="2" fill="#161b22"/>
 <rect x="864" y="684" width="9" height="9" rx="2" fill="#161b22"/>
+<rect x="864" y="695" width="9" height="9" rx="2" fill="#161b22"/>
 </g>
 </svg>
