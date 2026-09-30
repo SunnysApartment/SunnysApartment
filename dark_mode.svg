@@ -71,7 +71,7 @@
 <text x="545" y="384.0" xml:space="preserve" class="ln" style="animation-delay:1.26s"><tspan fill="#ffa657">Facebook: </tspan><tspan fill="#484f58">.............................. </tspan><tspan fill="#c9d1d9">Always.Sunny.19</tspan></text>
 <text x="545" y="425.0" xml:space="preserve" class="ln" style="animation-delay:1.38s"><tspan fill="#58a6ff">─ GitHub Stats </tspan><tspan fill="#484f58">─────────────────────────────────────────</tspan></text>
 <text x="545" y="445.5" xml:space="preserve" class="ln" style="animation-delay:1.44s"><tspan fill="#ffa657">Repos: </tspan><tspan fill="#484f58">.................... </tspan><tspan fill="#c9d1d9">81</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Languages: </tspan><tspan fill="#484f58">......... </tspan><tspan fill="#c9d1d9">12</tspan></text>
-<text x="545" y="466.0" xml:space="preserve" class="ln" style="animation-delay:1.50s"><tspan fill="#ffa657">Lines of Code: </tspan><tspan fill="#c9d1d9">329,051</tspan><tspan fill="#484f58"> ( </tspan><tspan fill="#3fb950">346,312++</tspan><tspan fill="#484f58">, </tspan><tspan fill="#f85149">17,261--</tspan><tspan fill="#484f58"> )</tspan></text>
+<text x="545" y="466.0" xml:space="preserve" class="ln" style="animation-delay:1.50s"><tspan fill="#ffa657">Lines of Code: </tspan><tspan fill="#c9d1d9">329,098</tspan><tspan fill="#484f58"> ( </tspan><tspan fill="#3fb950">346,367++</tspan><tspan fill="#484f58">, </tspan><tspan fill="#f85149">17,269--</tspan><tspan fill="#484f58"> )</tspan></text>
 <line x1="26" y1="604" x2="994" y2="604" stroke="#30363d"/>
 <g class="foot">
 <text x="28" y="636" fill="#58a6ff" font-size="12">─ Languages</text>
