@@ -395,7 +395,7 @@ def render(mode, s):
     .ln {{ opacity: 0; animation: rise .4s ease forwards; }}
     .cur {{ fill: {p['h']}; animation: blink 1.1s step-end infinite; }}
     .foot {{ opacity: 0; animation: rise .6s ease forwards 1.9s; }}
-    text {{ font-family: Consolas, "DejaVu Sans Mono", Menlo, monospace; }}
+    text {{ font-family: Consolas, "DejaVu Sans Mono", Menlo, monospace; white-space: pre; }}
     """
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{Wd}" height="{Hd}" '
@@ -424,7 +424,7 @@ def render(mode, s):
     # portrait
     out.append('<g class="art" xml:space="preserve">')
     for i, line in enumerate(ART.strip("\n").split("\n")):
-        out.append(f'<text x="{ART_X}" y="{ART_Y + i*12.4:.1f}" fill="{p["art"]}" font-size="11.5">{html.escape(line)}</text>')
+        out.append(f'<text x="{ART_X}" y="{ART_Y + i*12.4:.1f}" fill="{p["art"]}" font-size="11.5">{html.escape(line).replace(" ", "\u00a0")}</text>')
     out.append("</g>")
     # name under portrait
     out.append(f'<text x="{ART_X}" y="{ART_Y + len(ART.strip(chr(10)).splitlines())*12.4 + 30:.0f}" class="ln" style="animation-delay:1.6s" '
