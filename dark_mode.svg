@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="800" viewBox="0 0 1020 800" font-size="13px">
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="760" viewBox="0 0 1020 760" font-size="13px">
 <defs><style>
     @keyframes rise { from { opacity: 0 } to { opacity: 1 } }
     @keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
@@ -8,61 +8,61 @@
     .foot { opacity: 0; animation: rise .6s ease forwards 1.9s; }
     text { font-family: Consolas, "DejaVu Sans Mono", Menlo, monospace; }
     </style><linearGradient id="tt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2B4CF2"/><stop offset="1" stop-color="#F2A03D"/></linearGradient></defs>
-<rect x="0.5" y="0.5" width="1019" height="799" rx="12" fill="#0d1117" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="1019" height="759" rx="12" fill="#0d1117" stroke="#30363d"/>
 <circle cx="26" cy="26" r="6" fill="#ff5f56"/>
 <circle cx="46" cy="26" r="6" fill="#F2A03D"/>
 <circle cx="66" cy="26" r="6" fill="#3fb950"/>
 <text x="986" y="32" text-anchor="end" fill="#8b949e" font-size="15">Software Engineer</text>
 <g class="art" xml:space="preserve">
-<text x="26" y="72.0" fill="#F2A03D" font-size="11.5">                        .:        ..                    </text>
-<text x="26" y="84.4" fill="#F2A03D" font-size="11.5">                      . .=--=. .==:--..                 </text>
-<text x="26" y="96.8" fill="#F2A03D" font-size="11.5">                 ..----...-:-..:==..-===-:              </text>
-<text x="26" y="109.2" fill="#F2A03D" font-size="11.5">              :..::::.     ..     ..:-:-==.             </text>
-<text x="26" y="121.6" fill="#F2A03D" font-size="11.5">            . :..                    ...::.--           </text>
-<text x="26" y="134.0" fill="#F2A03D" font-size="11.5">          --        .:-=+*######*=-:.     .:--.         </text>
-<text x="26" y="146.4" fill="#F2A03D" font-size="11.5">         .-:    .=+#%@@@@@@@@@@@@@@@%#+-.    :.         </text>
-<text x="26" y="158.8" fill="#F2A03D" font-size="11.5">             .=#@@@@@@@@@@@@@@@@@@@@@@@@%+:     .       </text>
-<text x="26" y="171.2" fill="#F2A03D" font-size="11.5">           .+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*:  :-.      </text>
-<text x="26" y="183.6" fill="#F2A03D" font-size="11.5">      ..  -%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%= .. .     </text>
-<text x="26" y="196.0" fill="#F2A03D" font-size="11.5">     -:  =@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+ :.-.    </text>
-<text x="26" y="208.4" fill="#F2A03D" font-size="11.5">    .:  -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+  .-.   </text>
-<text x="26" y="220.8" fill="#F2A03D" font-size="11.5">    .  .#@@@@@@@@%%%%@@@@@@@@@@@@@%%##**#%@@@@@#:  :-   </text>
-<text x="26" y="233.2" fill="#F2A03D" font-size="11.5">   ..  -%@@@%*=:.    :-+#%@@@@@%*=.     . :=%@@#: ....  </text>
-<text x="26" y="245.6" fill="#F2A03D" font-size="11.5">   .  ..#@@#-:=*****=-::-*@@@@@*=::=+**#*++==*@@+   .:  </text>
-<text x="26" y="258.0" fill="#F2A03D" font-size="11.5">       -@@#-+*###%%%%%*+=*%@@@%*:=#%%%%%##*+-.=%@=      </text>
-<text x="26" y="270.4" fill="#F2A03D" font-size="11.5">      .%@%: -+***##****++=#@@@%=+*****#*+==:   :%+=     </text>
-<text x="26" y="282.8" fill="#F2A03D" font-size="11.5">      -+#+    :--=====-:=*@@@@@*=---=-=-.      .##-     </text>
-<text x="26" y="295.2" fill="#F2A03D" font-size="11.5">     :=%%+.         ...:#@@@@@@@*=:.           -=%*     </text>
-<text x="26" y="307.6" fill="#F2A03D" font-size="11.5">     .*%##*-.        .-*%@@@@@@@@#=:.       .-+*##*.    </text>
-<text x="26" y="320.0" fill="#F2A03D" font-size="11.5">      #@%%#*=-::::-=+*#@@@@@@@@%#%%#*+=------=*#%##-.*+ </text>
-<text x="26" y="332.4" fill="#F2A03D" font-size="11.5">  :=:.%@@%##*****#%%@@@@#==*#*+-.-*%@@@%%##*****%%%=-=- </text>
-<text x="26" y="344.8" fill="#F2A03D" font-size="11.5">  -+*=%@@@@@@@@@@@@@@@%==-:-::..:-=+%@@@@@@@@@@%%@%*==  </text>
-<text x="26" y="357.2" fill="#F2A03D" font-size="11.5">   .++@@@@@@@@@@@@@@@@%#**##**+*==+*@@@@@@@@@@@@@@%*+*  </text>
-<text x="26" y="369.6" fill="#F2A03D" font-size="11.5">   -%+%@@@@@@@@@@@@@@@@%#%%%#%#%#*+*#%@@@@@@@@%@%%#*+*. </text>
-<text x="26" y="382.0" fill="#F2A03D" font-size="11.5">   =%*+%@@@@@@@@@@@@%##%@%%%%%%####**+##%%@@%%#%%#*=##  </text>
-<text x="26" y="394.4" fill="#F2A03D" font-size="11.5">   -@#-*#%%@@@@@@@%*++**===+++++==-==--+**######*++=#+  </text>
-<text x="26" y="406.8" fill="#F2A03D" font-size="11.5">    *%-=+*%%%@@@%%*==++*#%%###***##**+==+*###*++++++#:  </text>
-<text x="26" y="419.2" fill="#F2A03D" font-size="11.5">    -%+-++*##%%@%%%%@@@@%#+-....-+*%%%%%%###*+==++=-=   </text>
-<text x="26" y="431.6" fill="#F2A03D" font-size="11.5">     --:++++**#%#%%@@@@@@%%**++*#%@@%%%##**+=-==++:     </text>
-<text x="26" y="444.0" fill="#F2A03D" font-size="11.5">        -==+++****#%%@@@@@@@@%%%%%@@%%#*+=--::----      </text>
-<text x="26" y="456.4" fill="#F2A03D" font-size="11.5">         :---====++*##%%@%@%%#%%#***++===-:.....:       </text>
-<text x="26" y="468.8" fill="#F2A03D" font-size="11.5">            .::-::--=+++***++=====---::::..             </text>
-<text x="26" y="481.2" fill="#F2A03D" font-size="11.5">          .:       ..::.::......  .           ::        </text>
-<text x="26" y="493.6" fill="#F2A03D" font-size="11.5">          .=.                                .=-        </text>
-<text x="26" y="506.0" fill="#F2A03D" font-size="11.5">          .+-.                               :+=        </text>
-<text x="26" y="518.4" fill="#F2A03D" font-size="11.5">          .++-.                             :-+=        </text>
-<text x="26" y="530.8" fill="#F2A03D" font-size="11.5">          .+++-:                           .:-++-       </text>
-<text x="26" y="543.2" fill="#F2A03D" font-size="11.5">           +++==:.                        ..:-=+*=      </text>
+<text x="78" y="63.0" fill="#F2A03D" font-size="11.5">                        .:        ..                    </text>
+<text x="78" y="75.4" fill="#F2A03D" font-size="11.5">                      . .=--=. .==:--..                 </text>
+<text x="78" y="87.8" fill="#F2A03D" font-size="11.5">                 ..----...-:-..:==..-===-:              </text>
+<text x="78" y="100.2" fill="#F2A03D" font-size="11.5">              :..::::.     ..     ..:-:-==.             </text>
+<text x="78" y="112.6" fill="#F2A03D" font-size="11.5">            . :..                    ...::.--           </text>
+<text x="78" y="125.0" fill="#F2A03D" font-size="11.5">          --        .:-=+*######*=-:.     .:--.         </text>
+<text x="78" y="137.4" fill="#F2A03D" font-size="11.5">         .-:    .=+#%@@@@@@@@@@@@@@@%#+-.    :.         </text>
+<text x="78" y="149.8" fill="#F2A03D" font-size="11.5">             .=#@@@@@@@@@@@@@@@@@@@@@@@@%+:     .       </text>
+<text x="78" y="162.2" fill="#F2A03D" font-size="11.5">           .+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*:  :-.      </text>
+<text x="78" y="174.6" fill="#F2A03D" font-size="11.5">      ..  -%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%= .. .     </text>
+<text x="78" y="187.0" fill="#F2A03D" font-size="11.5">     -:  =@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+ :.-.    </text>
+<text x="78" y="199.4" fill="#F2A03D" font-size="11.5">    .:  -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+  .-.   </text>
+<text x="78" y="211.8" fill="#F2A03D" font-size="11.5">    .  .#@@@@@@@@%%%%@@@@@@@@@@@@@%%##**#%@@@@@#:  :-   </text>
+<text x="78" y="224.2" fill="#F2A03D" font-size="11.5">   ..  -%@@@%*=:.    :-+#%@@@@@%*=.     . :=%@@#: ....  </text>
+<text x="78" y="236.6" fill="#F2A03D" font-size="11.5">   .  ..#@@#-:=*****=-::-*@@@@@*=::=+**#*++==*@@+   .:  </text>
+<text x="78" y="249.0" fill="#F2A03D" font-size="11.5">       -@@#-+*###%%%%%*+=*%@@@%*:=#%%%%%##*+-.=%@=      </text>
+<text x="78" y="261.4" fill="#F2A03D" font-size="11.5">      .%@%: -+***##****++=#@@@%=+*****#*+==:   :%+=     </text>
+<text x="78" y="273.8" fill="#F2A03D" font-size="11.5">      -+#+    :--=====-:=*@@@@@*=---=-=-.      .##-     </text>
+<text x="78" y="286.2" fill="#F2A03D" font-size="11.5">     :=%%+.         ...:#@@@@@@@*=:.           -=%*     </text>
+<text x="78" y="298.6" fill="#F2A03D" font-size="11.5">     .*%##*-.        .-*%@@@@@@@@#=:.       .-+*##*.    </text>
+<text x="78" y="311.0" fill="#F2A03D" font-size="11.5">      #@%%#*=-::::-=+*#@@@@@@@@%#%%#*+=------=*#%##-.*+ </text>
+<text x="78" y="323.4" fill="#F2A03D" font-size="11.5">  :=:.%@@%##*****#%%@@@@#==*#*+-.-*%@@@%%##*****%%%=-=- </text>
+<text x="78" y="335.8" fill="#F2A03D" font-size="11.5">  -+*=%@@@@@@@@@@@@@@@%==-:-::..:-=+%@@@@@@@@@@%%@%*==  </text>
+<text x="78" y="348.2" fill="#F2A03D" font-size="11.5">   .++@@@@@@@@@@@@@@@@%#**##**+*==+*@@@@@@@@@@@@@@%*+*  </text>
+<text x="78" y="360.6" fill="#F2A03D" font-size="11.5">   -%+%@@@@@@@@@@@@@@@@%#%%%#%#%#*+*#%@@@@@@@@%@%%#*+*. </text>
+<text x="78" y="373.0" fill="#F2A03D" font-size="11.5">   =%*+%@@@@@@@@@@@@%##%@%%%%%%####**+##%%@@%%#%%#*=##  </text>
+<text x="78" y="385.4" fill="#F2A03D" font-size="11.5">   -@#-*#%%@@@@@@@%*++**===+++++==-==--+**######*++=#+  </text>
+<text x="78" y="397.8" fill="#F2A03D" font-size="11.5">    *%-=+*%%%@@@%%*==++*#%%###***##**+==+*###*++++++#:  </text>
+<text x="78" y="410.2" fill="#F2A03D" font-size="11.5">    -%+-++*##%%@%%%%@@@@%#+-....-+*%%%%%%###*+==++=-=   </text>
+<text x="78" y="422.6" fill="#F2A03D" font-size="11.5">     --:++++**#%#%%@@@@@@%%**++*#%@@%%%##**+=-==++:     </text>
+<text x="78" y="435.0" fill="#F2A03D" font-size="11.5">        -==+++****#%%@@@@@@@@%%%%%@@%%#*+=--::----      </text>
+<text x="78" y="447.4" fill="#F2A03D" font-size="11.5">         :---====++*##%%@%@%%#%%#***++===-:.....:       </text>
+<text x="78" y="459.8" fill="#F2A03D" font-size="11.5">            .::-::--=+++***++=====---::::..             </text>
+<text x="78" y="472.2" fill="#F2A03D" font-size="11.5">          .:       ..::.::......  .           ::        </text>
+<text x="78" y="484.6" fill="#F2A03D" font-size="11.5">          .=.                                .=-        </text>
+<text x="78" y="497.0" fill="#F2A03D" font-size="11.5">          .+-.                               :+=        </text>
+<text x="78" y="509.4" fill="#F2A03D" font-size="11.5">          .++-.                             :-+=        </text>
+<text x="78" y="521.8" fill="#F2A03D" font-size="11.5">          .+++-:                           .:-++-       </text>
+<text x="78" y="534.2" fill="#F2A03D" font-size="11.5">           +++==:.                        ..:-=+*=      </text>
 </g>
-<text x="26" y="582" class="ln" style="animation-delay:1.6s" fill="url(#tt)" font-size="20" font-weight="700">Khaled Omar</text>
+<text x="78" y="577" class="ln" style="animation-delay:1.6s" fill="url(#tt)" font-size="20" font-weight="700">Khaled Omar</text>
 <text x="545" y="56.0" xml:space="preserve" class="ln" style="animation-delay:0.30s"><tspan fill="#58a6ff">sunnysapartment@github </tspan><tspan fill="#484f58">─────────────────────────────────</tspan><tspan class="cur">█</tspan></text>
 <text x="545" y="97.0" xml:space="preserve" class="ln" style="animation-delay:0.42s"><tspan fill="#ffa657">OS: </tspan><tspan fill="#484f58">..................................... </tspan><tspan fill="#c9d1d9">macOS, Windows</tspan></text>
-<text x="545" y="117.5" xml:space="preserve" class="ln" style="animation-delay:0.48s"><tspan fill="#ffa657">Uptime: </tspan><tspan fill="#484f58">............ </tspan><tspan fill="#c9d1d9">6 years, 2 months, 6 days on GitHub</tspan></text>
+<text x="545" y="117.5" xml:space="preserve" class="ln" style="animation-delay:0.48s"><tspan fill="#ffa657">Uptime: </tspan><tspan fill="#484f58">............................ </tspan><tspan fill="#c9d1d9">awaiting first sync</tspan></text>
 <text x="545" y="138.0" xml:space="preserve" class="ln" style="animation-delay:0.54s"><tspan fill="#ffa657">Host: </tspan><tspan fill="#484f58">................................... </tspan><tspan fill="#c9d1d9">Egypt · Remote</tspan></text>
 <text x="545" y="158.5" xml:space="preserve" class="ln" style="animation-delay:0.60s"><tspan fill="#ffa657">Kernel: </tspan><tspan fill="#484f58">............. </tspan><tspan fill="#c9d1d9">Software Engineer &amp; Technical Lead</tspan></text>
 <text x="545" y="179.0" xml:space="preserve" class="ln" style="animation-delay:0.66s"><tspan fill="#ffa657">Stack: </tspan><tspan fill="#484f58">...... </tspan><tspan fill="#c9d1d9">.NET · React · WordPress · AI · Automation</tspan></text>
 <text x="545" y="199.5" xml:space="preserve" class="ln" style="animation-delay:0.72s"><tspan fill="#ffa657">IDE: </tspan><tspan fill="#484f58">...................... </tspan><tspan fill="#c9d1d9">Claude Code, VS Code, Cursor</tspan></text>
-<text x="545" y="240.5" xml:space="preserve" class="ln" style="animation-delay:0.84s"><tspan fill="#ffa657">Languages.Code: </tspan><tspan fill="#484f58">. </tspan><tspan fill="#c9d1d9">HTML, TypeScript, Python, C#, JavaScript</tspan></text>
+<text x="545" y="240.5" xml:space="preserve" class="ln" style="animation-delay:0.84s"><tspan fill="#ffa657">Languages.Code: </tspan><tspan fill="#484f58">...................................... </tspan><tspan fill="#c9d1d9">—</tspan></text>
 <text x="545" y="261.0" xml:space="preserve" class="ln" style="animation-delay:0.90s"><tspan fill="#ffa657">Languages.Real: </tspan><tspan fill="#484f58">........................ </tspan><tspan fill="#c9d1d9">Arabic, English</tspan></text>
 <text x="545" y="281.5" xml:space="preserve" class="ln" style="animation-delay:0.96s"><tspan fill="#ffa657">Specialty: </tspan><tspan fill="#484f58">........ </tspan><tspan fill="#c9d1d9">Arabic / RTL web · self-hosted tools</tspan></text>
 <text x="545" y="302.0" xml:space="preserve" class="ln" style="animation-delay:1.02s"><tspan fill="#ffa657">Focus: </tspan><tspan fill="#484f58">.............. </tspan><tspan fill="#c9d1d9">Building scalable digital products</tspan></text>
@@ -70,238 +70,23 @@
 <text x="545" y="363.5" xml:space="preserve" class="ln" style="animation-delay:1.20s"><tspan fill="#ffa657">Instagram: </tspan><tspan fill="#484f58">............................... </tspan><tspan fill="#c9d1d9">@khaled__omar</tspan></text>
 <text x="545" y="384.0" xml:space="preserve" class="ln" style="animation-delay:1.26s"><tspan fill="#ffa657">Facebook: </tspan><tspan fill="#484f58">.............................. </tspan><tspan fill="#c9d1d9">Always.Sunny.19</tspan></text>
 <text x="545" y="425.0" xml:space="preserve" class="ln" style="animation-delay:1.38s"><tspan fill="#58a6ff">─ GitHub Stats </tspan><tspan fill="#484f58">─────────────────────────────────────────</tspan></text>
-<text x="545" y="445.5" xml:space="preserve" class="ln" style="animation-delay:1.44s"><tspan fill="#ffa657">Repos: </tspan><tspan fill="#484f58">... </tspan><tspan fill="#c9d1d9">80 {Contributed: 0}</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Stars: </tspan><tspan fill="#484f58">.............. </tspan><tspan fill="#c9d1d9">0</tspan></text>
-<text x="545" y="466.0" xml:space="preserve" class="ln" style="animation-delay:1.50s"><tspan fill="#ffa657">Commits: </tspan><tspan fill="#484f58">................... </tspan><tspan fill="#c9d1d9">0</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Followers: </tspan><tspan fill="#484f58">.......... </tspan><tspan fill="#c9d1d9">0</tspan></text>
-<text x="545" y="486.5" xml:space="preserve" class="ln" style="animation-delay:1.56s"><tspan fill="#ffa657">Lines of Code: </tspan><tspan fill="#c9d1d9">328,545</tspan><tspan fill="#484f58"> ( </tspan><tspan fill="#3fb950">345,122++</tspan><tspan fill="#484f58">, </tspan><tspan fill="#f85149">16,577--</tspan><tspan fill="#484f58"> )</tspan></text>
-<line x1="24" y1="628" x2="994" y2="628" stroke="#30363d"/>
+<text x="545" y="445.5" xml:space="preserve" class="ln" style="animation-delay:1.44s"><tspan fill="#ffa657">Stats: </tspan><tspan fill="#484f58">............................. </tspan><tspan fill="#c9d1d9">awaiting first sync</tspan></text>
+<line x1="26" y1="604" x2="994" y2="604" stroke="#30363d"/>
 <g class="foot">
-<text x="28" y="660" fill="#58a6ff" font-size="12">─ Languages</text>
-<clipPath id="lc"><rect x="28" y="670" width="430" height="14" rx="4"/></clipPath>
-<g clip-path="url(#lc)">
-<rect x="28.0" y="670" width="332.6" height="14" fill="#e34c26"/>
-<rect x="360.6" y="670" width="34.4" height="14" fill="#3178c6"/>
-<rect x="395.0" y="670" width="25.3" height="14" fill="#3572A5"/>
-<rect x="420.3" y="670" width="16.8" height="14" fill="#178600"/>
-<rect x="437.1" y="670" width="15.4" height="14" fill="#f1e05a"/>
-<rect x="452.5" y="670" width="5.5" height="14" fill="#c1d026"/>
-</g>
-<circle cx="32" cy="698" r="4" fill="#e34c26"/>
-<text x="41" y="702" fill="#c9d1d9" font-size="11">HTML 77%</text>
-<circle cx="99.8" cy="698" r="4" fill="#3178c6"/>
-<text x="108.8" y="702" fill="#c9d1d9" font-size="11">TypeScript 8%</text>
-<circle cx="200.6" cy="698" r="4" fill="#3572A5"/>
-<text x="209.6" y="702" fill="#c9d1d9" font-size="11">Python 6%</text>
-<circle cx="275.0" cy="698" r="4" fill="#178600"/>
-<text x="284.0" y="702" fill="#c9d1d9" font-size="11">C# 4%</text>
-<circle cx="323.0" cy="698" r="4" fill="#f1e05a"/>
-<text x="332.0" y="702" fill="#c9d1d9" font-size="11">JavaScript 4%</text>
-<text x="545" y="650" fill="#58a6ff" font-size="12">─ Contribution activity</text>
-<rect x="545" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="545" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="545" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="545" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="545" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="545" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="545" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="556" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="556" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="556" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="556" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="556" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="556" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="556" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="567" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="567" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="567" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="567" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="567" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="567" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="567" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="578" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="578" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="578" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="578" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="578" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="578" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="578" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="589" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="589" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="589" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="589" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="589" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="589" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="589" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="600" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="600" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="600" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="600" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="600" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="600" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="600" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="611" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="611" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="611" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="611" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="611" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="611" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="611" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="622" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="622" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="622" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="622" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="622" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="622" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="622" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="633" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="633" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="633" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="633" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="633" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="633" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="633" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="644" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="644" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="644" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="644" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="644" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="644" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="644" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="655" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="655" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="655" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="655" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="655" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="655" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="655" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="666" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="666" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="666" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="666" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="666" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="666" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="666" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="677" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="677" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="677" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="677" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="677" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="677" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="677" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="688" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="688" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="688" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="688" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="688" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="688" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="688" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="699" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="699" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="699" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="699" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="699" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="699" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="699" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="710" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="710" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="710" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="710" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="710" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="710" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="710" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="721" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="721" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="721" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="721" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="721" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="721" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="721" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="732" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="732" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="732" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="732" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="732" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="732" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="732" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="743" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="743" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="743" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="743" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="743" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="743" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="743" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="754" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="754" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="754" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="754" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="754" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="754" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="754" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="765" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="765" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="765" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="765" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="765" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="765" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="765" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="776" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="776" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="776" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="776" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="776" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="776" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="776" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="787" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="787" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="787" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="787" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="787" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="787" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="787" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="798" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="798" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="798" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="798" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="798" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="798" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="798" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="809" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="809" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="809" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="809" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="809" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="809" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="809" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="820" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="820" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="820" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="820" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="820" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="820" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="820" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="831" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="831" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="831" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="831" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="831" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="831" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="831" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="842" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="842" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="842" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="842" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="842" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="842" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="842" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="853" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="853" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="853" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="853" y="695" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="853" y="706" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="853" y="717" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="853" y="728" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="864" y="662" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="864" y="673" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="864" y="684" width="9" height="9" rx="2" fill="#161b22"/>
-<rect x="864" y="695" width="9" height="9" rx="2" fill="#161b22"/>
+<text x="28" y="636" fill="#58a6ff" font-size="12">─ Languages</text><text x="28" y="658" fill="#484f58" font-size="11">awaiting first sync</text>
+<text x="545" y="636" fill="#58a6ff" font-size="12">─ Building with</text>
+<rect x="545" y="652" width="49" height="22" rx="11" fill="none" stroke="#30363d"/>
+<text x="570" y="667" text-anchor="middle" fill="#c9d1d9" font-size="11">Salla</text>
+<rect x="602" y="652" width="35" height="22" rx="11" fill="none" stroke="#30363d"/>
+<text x="619" y="667" text-anchor="middle" fill="#c9d1d9" font-size="11">Zid</text>
+<rect x="645" y="652" width="63" height="22" rx="11" fill="none" stroke="#30363d"/>
+<text x="676" y="667" text-anchor="middle" fill="#c9d1d9" font-size="11">Shopify</text>
+<rect x="716" y="652" width="78" height="22" rx="11" fill="none" stroke="#30363d"/>
+<text x="755" y="667" text-anchor="middle" fill="#c9d1d9" font-size="11">WordPress</text>
+<rect x="802" y="652" width="63" height="22" rx="11" fill="none" stroke="#30363d"/>
+<text x="834" y="667" text-anchor="middle" fill="#c9d1d9" font-size="11">Next.js</text>
+<rect x="873" y="652" width="42" height="22" rx="11" fill="none" stroke="#30363d"/>
+<text x="894" y="667" text-anchor="middle" fill="#c9d1d9" font-size="11">.NET</text>
+<text x="545" y="700" fill="#ffa657" font-size="11.5">↗ sunnysapartment.github.io/Portfolio-Showcase</text>
 </g>
 </svg>

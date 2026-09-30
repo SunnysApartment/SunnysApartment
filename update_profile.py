@@ -3,7 +3,7 @@
 Runs daily via GitHub Actions. Standard library only, no dependencies.
 Creative layer on top of the neofetch idea: a baked ASCII portrait, a type-in
 boot animation (CSS keyframes survive GitHub's image proxy), a live language
-bar and contribution heatmap drawn straight from the GraphQL API, and an
+bar drawn straight from the GraphQL API, a platform strip, and an
 Arabic/RTL accent. Falls back to demo data when no token is present so it
 always renders something (e.g. before ACCESS_TOKEN is configured).
 """
@@ -141,13 +141,21 @@ def fetch_all():
               edges {{ size node {{ name color }} }} }} }}
         }}
         repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, PULL_REQUEST, REPOSITORY]) {{ totalCount }}
-        contributionsCollection {{ contributionCalendar {{ weeks {{ contributionDays {{ contributionCount }} }} }} }}
+        contributionsCollection {{ totalCommitContributions restrictedContributionsCount
+          contributionCalendar {{ totalContributions weeks {{ contributionDays {{ contributionCount }} }} }} }}
         {yr_aliases}
       }}
     }}"""
     u = graphql(q, token=PRIV_TOKEN)["user"]
+    # Per-year aliases are the full history. They come back as 0 when the
+    # account has "include private contributions" switched off, so fall back
+    # to the last-12-month collection rather than publishing a bogus zero.
     commits = sum(v["totalCommitContributions"] + v["restrictedContributionsCount"]
                   for k, v in u.items() if k.startswith("y") and isinstance(v, dict))
+    cc = u["contributionsCollection"]
+    if not commits:
+        commits = cc["totalCommitContributions"] + cc["restrictedContributionsCount"]
+    contribs_year = cc["contributionCalendar"]["totalContributions"]
     langs = {}
     for repo in u["repositories"]["nodes"]:
         for e in repo["languages"]["edges"]:
@@ -158,6 +166,7 @@ def fetch_all():
              for w in u["contributionsCollection"]["contributionCalendar"]["weeks"]]
     names = [n["name"] for n in u["repositories"]["nodes"]]
     stats = {
+        "contribs_year": contribs_year,
         "followers": u["followers"]["totalCount"],
         "repos": u["repositories"]["totalCount"],
         "contributed": u["repositoriesContributedTo"]["totalCount"],
@@ -166,6 +175,7 @@ def fetch_all():
         "uptime": age(joined.date(), date.today()),
         "langs": sorted(((n, v[0], v[1]) for n, v in langs.items()),
                         key=lambda x: -x[1])[:6],
+        "lang_count": len(langs),
         "weeks": weeks[-30:],
     }
     stats.update(loc(names, u["id"]))
@@ -216,6 +226,7 @@ def demo_stats():
         "langs": [],
         "weeks": [[0] * 7 for _ in range(30)],
         "loc_add": None, "loc_del": None, "loc": None,
+        "contribs_year": None, "lang_count": None,
     }
 
 
@@ -274,13 +285,52 @@ def info_lines(s):
         *([kv("Facebook", FIELDS["facebook"])] if FIELDS["facebook"] else []),
         [],
         rule("GitHub Stats"),
-        kv2("Repos", (f"{s['repos']} {{Contributed: {s['contributed']}}}"
-              if s["repos"] is not None else "—"), "Stars", n(s["stars"])),
-        kv2("Commits", n(s["commits"]), "Followers", n(s["followers"])),
-        [("Lines of Code: ", "k"), (n(s["loc"]), "v"), (" ( ", "d"),
-         (n(s["loc_add"]) + "++", "g"), (", ", "d"),
-         (n(s["loc_del"]) + "--", "r"), (" )", "d")],
+        *stat_rows(s),
     ]
+
+
+def stat_rows(s):
+    """Build the stats block, omitting anything that is zero or unknown.
+
+    A profile full of `0` reads worse than a shorter list of real numbers.
+    Stars and followers stay hidden until they are actually worth showing;
+    the volume metrics (repos, lines, languages, activity) carry the weight.
+    """
+    n = lambda x: f"{x:,}"
+    have = lambda k: s.get(k) not in (None, 0)
+
+    pairs = []
+    if have("repos"):
+        label = str(s["repos"])
+        if have("contributed"):
+            label += f" {{Contributed: {s['contributed']}}}"
+        pairs.append(("Repos", label))
+    if have("lang_count"):
+        pairs.append(("Languages", str(s["lang_count"])))
+    if have("commits"):
+        pairs.append(("Commits", n(s["commits"])))
+    if have("contribs_year"):
+        pairs.append(("Past year", n(s["contribs_year"]) + " contributions"))
+    if have("stars"):
+        pairs.append(("Stars", n(s["stars"])))
+    if have("followers"):
+        pairs.append(("Followers", n(s["followers"])))
+
+    rows = []
+    for i in range(0, len(pairs), 2):                 # two metrics per line
+        chunk = pairs[i:i + 2]
+        if len(chunk) == 2:
+            rows.append(kv2(chunk[0][0], chunk[0][1], chunk[1][0], chunk[1][1]))
+        else:
+            rows.append(kv(chunk[0][0], chunk[0][1]))
+
+    if have("loc"):
+        rows.append([("Lines of Code: ", "k"), (n(s["loc"]), "v"), (" ( ", "d"),
+                     (n(s["loc_add"]) + "++", "g"), (", ", "d"),
+                     (n(s["loc_del"]) + "--", "r"), (" )", "d")])
+    if not rows:
+        rows.append(kv("Stats", "awaiting first sync"))
+    return rows
 
 
 def lang_bar(s, p, x, y, w):
@@ -311,25 +361,33 @@ def lang_bar(s, p, x, y, w):
     return "\n".join(out)
 
 
-def heatmap(s, p, x, y):
-    weeks = s["weeks"]
-    mx = max((max(w) for w in weeks if w), default=1) or 1
-    cell, gap = 9, 2
-    out = [f'<text x="{x}" y="{y}" fill="{p["h"]}" font-size="12">\u2500 Contribution activity</text>']
-    gy = y + 12
-    for wi, week in enumerate(weeks):
-        for di, cnt in enumerate(week):
-            lvl = 0 if cnt == 0 else min(4, 1 + int(cnt / mx * 3.999))
-            cx = x + wi * (cell + gap)
-            cyy = gy + di * (cell + gap)
-            out.append(f'<rect x="{cx}" y="{cyy}" width="{cell}" height="{cell}" rx="2" '
-                       f'fill="{p["hm"][lvl]}"/>')
+PLATFORMS = ["Salla", "Zid", "Shopify", "WordPress", "Next.js", ".NET"]
+PORTFOLIO = "sunnysapartment.github.io/Portfolio-Showcase"
+
+
+def platforms(s, p, x, y):
+    """Pill strip of the platforms I ship on, plus the portfolio link."""
+    out = [f'<text x="{x}" y="{y}" fill="{p["h"]}" font-size="12">\u2500 Building with</text>']
+    px, py, rows = x, y + 16, 0
+    for label in PLATFORMS:
+        w = 13 + len(label) * 7.2
+        if px + w > x + 430:                      # wrap to a second row
+            px, rows = x, rows + 1
+            py = y + 16 + rows * 30
+        out.append(f'<rect x="{px:.0f}" y="{py}" width="{w:.0f}" height="22" rx="11" '
+                   f'fill="none" stroke="{p["border"]}"/>')
+        out.append(f'<text x="{px + w/2:.0f}" y="{py + 15}" text-anchor="middle" '
+                   f'fill="{p["v"]}" font-size="11">{html.escape(label)}</text>')
+        px += w + 8
+    out.append(f'<text x="{x}" y="{py + 48}" fill="{p["k"]}" font-size="11.5">\u2197 '
+               f'{html.escape(PORTFOLIO)}</text>')
     return "\n".join(out)
 
 
 def render(mode, s):
     p = PALETTES[mode]
-    Wd, Hd = 1020, 800
+    Wd, Hd = 1020, 760
+    PANEL_X, FOOTER_Y = 545, 604
     style = f"""
     @keyframes rise {{ from {{ opacity: 0 }} to {{ opacity: 1 }} }}
     @keyframes blink {{ 0%,49% {{ opacity: 1 }} 50%,100% {{ opacity: 0 }} }}
@@ -357,13 +415,19 @@ def render(mode, s):
         f'<text x="{Wd-34}" y="32" text-anchor="end" fill="{p["ar"]}" '
         f'font-size="15">{html.escape(TAGLINE)}</text>',
     ]
+    # portrait — centred horizontally in the left column, and vertically
+    # against the footer rule so it never sits high or hugs the edge
+    art_rows = ART.strip("\n").splitlines()
+    art_w = max(len(r) for r in art_rows) * 6.92
+    ART_X = int((PANEL_X - art_w) / 2)
+    ART_Y = int((FOOTER_Y - len(art_rows) * 12.4 - 34) / 2) + 20
     # portrait
     out.append('<g class="art" xml:space="preserve">')
     for i, line in enumerate(ART.strip("\n").split("\n")):
-        out.append(f'<text x="26" y="{72 + i*12.4:.1f}" fill="{p["art"]}" font-size="11.5">{html.escape(line)}</text>')
+        out.append(f'<text x="{ART_X}" y="{ART_Y + i*12.4:.1f}" fill="{p["art"]}" font-size="11.5">{html.escape(line)}</text>')
     out.append("</g>")
     # name under portrait
-    out.append(f'<text x="26" y="{72 + 39*12.4 + 26:.0f}" class="ln" style="animation-delay:1.6s" '
+    out.append(f'<text x="{ART_X}" y="{ART_Y + len(ART.strip(chr(10)).splitlines())*12.4 + 30:.0f}" class="ln" style="animation-delay:1.6s" '
                f'fill="url(#tt)" font-size="20" font-weight="700">{html.escape(NAME)}</text>')
     # info panel (staggered)
     for i, segs in enumerate(info_lines(s)):
@@ -374,13 +438,13 @@ def render(mode, s):
             else f'<tspan fill="{p[c] if c != "h" else p["h"]}">{html.escape(t)}</tspan>'
             for t, c in segs)
         delay = 0.3 + i * 0.06
-        out.append(f'<text x="545" y="{56 + i*20.5:.1f}" xml:space="preserve" class="ln" '
+        out.append(f'<text x="{PANEL_X}" y="{56 + i*20.5:.1f}" xml:space="preserve" class="ln" '
                    f'style="animation-delay:{delay:.2f}s">{spans}</text>')
     # footer widgets
-    out.append(f'<line x1="24" y1="628" x2="{Wd-26}" y2="628" stroke="{p["border"]}"/>')
+    out.append(f'<line x1="26" y1="{FOOTER_Y}" x2="{Wd-26}" y2="{FOOTER_Y}" stroke="{p["border"]}"/>')
     out.append('<g class="foot">')
-    out.append(lang_bar(s, p, 28, 660, 430))
-    out.append(heatmap(s, p, 545, 650))
+    out.append(lang_bar(s, p, 28, FOOTER_Y + 32, 430))
+    out.append(platforms(s, p, PANEL_X, FOOTER_Y + 32))
     out.append("</g>")
     out.append("</svg>")
     return "\n".join(out)
