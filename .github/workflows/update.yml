@@ -4,6 +4,13 @@ on:
   schedule:
     - cron: "17 4 * * *"   # daily
   workflow_dispatch:
+  push:
+    branches: [main]
+    # Only when the generator or workflow changes. The bot's own commits touch
+    # just the SVGs, so this cannot trigger itself in a loop.
+    paths:
+      - update_profile.py
+      - .github/workflows/update.yml
 
 permissions:
   contents: write
