@@ -57,12 +57,12 @@
 <text x="78" y="577" class="ln" style="animation-delay:1.6s" fill="url(#tt)" font-size="20" font-weight="700">Khaled Omar</text>
 <text x="545" y="56.0" xml:space="preserve" class="ln" style="animation-delay:0.30s"><tspan fill="#0969da">sunnysapartment@github </tspan><tspan fill="#afb8c1">─────────────────────────────────</tspan><tspan class="cur">█</tspan></text>
 <text x="545" y="97.0" xml:space="preserve" class="ln" style="animation-delay:0.42s"><tspan fill="#953800">OS: </tspan><tspan fill="#afb8c1">..................................... </tspan><tspan fill="#24292f">macOS, Windows</tspan></text>
-<text x="545" y="117.5" xml:space="preserve" class="ln" style="animation-delay:0.48s"><tspan fill="#953800">Uptime: </tspan><tspan fill="#afb8c1">............ </tspan><tspan fill="#24292f">6 years, 2 months, 6 days on GitHub</tspan></text>
+<text x="545" y="117.5" xml:space="preserve" class="ln" style="animation-delay:0.48s"><tspan fill="#953800">Uptime: </tspan><tspan fill="#afb8c1">............ </tspan><tspan fill="#24292f">6 years, 2 months, 7 days on GitHub</tspan></text>
 <text x="545" y="138.0" xml:space="preserve" class="ln" style="animation-delay:0.54s"><tspan fill="#953800">Host: </tspan><tspan fill="#afb8c1">................................... </tspan><tspan fill="#24292f">Egypt · Remote</tspan></text>
 <text x="545" y="158.5" xml:space="preserve" class="ln" style="animation-delay:0.60s"><tspan fill="#953800">Kernel: </tspan><tspan fill="#afb8c1">............. </tspan><tspan fill="#24292f">Software Engineer &amp; Technical Lead</tspan></text>
 <text x="545" y="179.0" xml:space="preserve" class="ln" style="animation-delay:0.66s"><tspan fill="#953800">Stack: </tspan><tspan fill="#afb8c1">...... </tspan><tspan fill="#24292f">.NET · React · WordPress · AI · Automation</tspan></text>
 <text x="545" y="199.5" xml:space="preserve" class="ln" style="animation-delay:0.72s"><tspan fill="#953800">IDE: </tspan><tspan fill="#afb8c1">...................... </tspan><tspan fill="#24292f">Claude Code, VS Code, Cursor</tspan></text>
-<text x="545" y="240.5" xml:space="preserve" class="ln" style="animation-delay:0.84s"><tspan fill="#953800">Languages.Code: </tspan><tspan fill="#afb8c1">. </tspan><tspan fill="#24292f">HTML, TypeScript, Python, C#, JavaScript</tspan></text>
+<text x="545" y="240.5" xml:space="preserve" class="ln" style="animation-delay:0.84s"><tspan fill="#953800">Languages.Code: </tspan><tspan fill="#afb8c1">. </tspan><tspan fill="#24292f">HTML, TypeScript, Python, JavaScript, C#</tspan></text>
 <text x="545" y="261.0" xml:space="preserve" class="ln" style="animation-delay:0.90s"><tspan fill="#953800">Languages.Real: </tspan><tspan fill="#afb8c1">........................ </tspan><tspan fill="#24292f">Arabic, English</tspan></text>
 <text x="545" y="281.5" xml:space="preserve" class="ln" style="animation-delay:0.96s"><tspan fill="#953800">Specialty: </tspan><tspan fill="#afb8c1">........ </tspan><tspan fill="#24292f">Arabic / RTL web · self-hosted tools</tspan></text>
 <text x="545" y="302.0" xml:space="preserve" class="ln" style="animation-delay:1.02s"><tspan fill="#953800">Focus: </tspan><tspan fill="#afb8c1">.............. </tspan><tspan fill="#24292f">Building scalable digital products</tspan></text>
@@ -70,30 +70,31 @@
 <text x="545" y="363.5" xml:space="preserve" class="ln" style="animation-delay:1.20s"><tspan fill="#953800">Instagram: </tspan><tspan fill="#afb8c1">............................... </tspan><tspan fill="#24292f">@khaled__omar</tspan></text>
 <text x="545" y="384.0" xml:space="preserve" class="ln" style="animation-delay:1.26s"><tspan fill="#953800">Facebook: </tspan><tspan fill="#afb8c1">.............................. </tspan><tspan fill="#24292f">Always.Sunny.19</tspan></text>
 <text x="545" y="425.0" xml:space="preserve" class="ln" style="animation-delay:1.38s"><tspan fill="#0969da">─ GitHub Stats </tspan><tspan fill="#afb8c1">─────────────────────────────────────────</tspan></text>
-<text x="545" y="445.5" xml:space="preserve" class="ln" style="animation-delay:1.44s"><tspan fill="#953800">Repos: </tspan><tspan fill="#afb8c1">.................... </tspan><tspan fill="#24292f">81</tspan><tspan fill="#afb8c1"> | </tspan><tspan fill="#953800">Languages: </tspan><tspan fill="#afb8c1">......... </tspan><tspan fill="#24292f">12</tspan></text>
-<text x="545" y="466.0" xml:space="preserve" class="ln" style="animation-delay:1.50s"><tspan fill="#953800">Lines of Code: </tspan><tspan fill="#24292f">329,098</tspan><tspan fill="#afb8c1"> ( </tspan><tspan fill="#1a7f37">346,367++</tspan><tspan fill="#afb8c1">, </tspan><tspan fill="#cf222e">17,269--</tspan><tspan fill="#afb8c1"> )</tspan></text>
+<text x="545" y="445.5" xml:space="preserve" class="ln" style="animation-delay:1.44s"><tspan fill="#953800">Repos: </tspan><tspan fill="#afb8c1">.................... </tspan><tspan fill="#24292f">82</tspan><tspan fill="#afb8c1"> | </tspan><tspan fill="#953800">Languages: </tspan><tspan fill="#afb8c1">......... </tspan><tspan fill="#24292f">12</tspan></text>
+<text x="545" y="466.0" xml:space="preserve" class="ln" style="animation-delay:1.50s"><tspan fill="#953800">Commits: </tspan><tspan fill="#afb8c1">................. </tspan><tspan fill="#24292f">433</tspan><tspan fill="#afb8c1"> | </tspan><tspan fill="#953800">Past year: </tspan><tspan fill="#afb8c1">. </tspan><tspan fill="#24292f">438 contributions</tspan></text>
+<text x="545" y="486.5" xml:space="preserve" class="ln" style="animation-delay:1.56s"><tspan fill="#953800">Lines of Code: </tspan><tspan fill="#24292f">335,725</tspan><tspan fill="#afb8c1"> ( </tspan><tspan fill="#1a7f37">353,661++</tspan><tspan fill="#afb8c1">, </tspan><tspan fill="#cf222e">17,936--</tspan><tspan fill="#afb8c1"> )</tspan></text>
 <line x1="26" y1="604" x2="994" y2="604" stroke="#d0d7de"/>
 <g class="foot">
 <text x="28" y="636" fill="#0969da" font-size="12">─ Languages</text>
 <clipPath id="lc"><rect x="28" y="646" width="430" height="14" rx="4"/></clipPath>
 <g clip-path="url(#lc)">
-<rect x="28.0" y="646" width="332.6" height="14" fill="#e34c26"/>
-<rect x="360.6" y="646" width="34.4" height="14" fill="#3178c6"/>
-<rect x="395.0" y="646" width="25.3" height="14" fill="#3572A5"/>
-<rect x="420.3" y="646" width="16.8" height="14" fill="#178600"/>
-<rect x="437.1" y="646" width="15.4" height="14" fill="#f1e05a"/>
-<rect x="452.5" y="646" width="5.5" height="14" fill="#c1d026"/>
+<rect x="28.0" y="646" width="336.3" height="14" fill="#e34c26"/>
+<rect x="364.3" y="646" width="32.7" height="14" fill="#3178c6"/>
+<rect x="397.0" y="646" width="23.9" height="14" fill="#3572A5"/>
+<rect x="420.9" y="646" width="16.1" height="14" fill="#f1e05a"/>
+<rect x="437.0" y="646" width="15.8" height="14" fill="#178600"/>
+<rect x="452.8" y="646" width="5.2" height="14" fill="#c1d026"/>
 </g>
 <circle cx="32" cy="674" r="4" fill="#e34c26"/>
-<text x="41" y="678" fill="#24292f" font-size="11">HTML 77%</text>
+<text x="41" y="678" fill="#24292f" font-size="11">HTML 78%</text>
 <circle cx="99.8" cy="674" r="4" fill="#3178c6"/>
 <text x="108.8" y="678" fill="#24292f" font-size="11">TypeScript 8%</text>
 <circle cx="200.6" cy="674" r="4" fill="#3572A5"/>
 <text x="209.6" y="678" fill="#24292f" font-size="11">Python 6%</text>
-<circle cx="275.0" cy="674" r="4" fill="#178600"/>
-<text x="284.0" y="678" fill="#24292f" font-size="11">C# 4%</text>
-<circle cx="323.0" cy="674" r="4" fill="#f1e05a"/>
-<text x="332.0" y="678" fill="#24292f" font-size="11">JavaScript 4%</text>
+<circle cx="275.0" cy="674" r="4" fill="#f1e05a"/>
+<text x="284.0" y="678" fill="#24292f" font-size="11">JavaScript 4%</text>
+<circle cx="375.8" cy="674" r="4" fill="#178600"/>
+<text x="384.8" y="678" fill="#24292f" font-size="11">C# 4%</text>
 <text x="545" y="636" fill="#0969da" font-size="12">─ Building with</text>
 <rect x="545" y="652" width="49" height="22" rx="11" fill="none" stroke="#d0d7de"/>
 <text x="570" y="667" text-anchor="middle" fill="#24292f" font-size="11">Salla</text>
