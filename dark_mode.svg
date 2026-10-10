@@ -57,7 +57,7 @@
 <text x="78" y="577" class="ln" style="animation-delay:1.6s" fill="url(#tt)" font-size="20" font-weight="700">Khaled Omar</text>
 <text x="545" y="56.0" xml:space="preserve" class="ln" style="animation-delay:0.30s"><tspan fill="#58a6ff">sunnysapartment@github </tspan><tspan fill="#484f58">─────────────────────────────────</tspan><tspan class="cur">█</tspan></text>
 <text x="545" y="97.0" xml:space="preserve" class="ln" style="animation-delay:0.42s"><tspan fill="#ffa657">OS: </tspan><tspan fill="#484f58">..................................... </tspan><tspan fill="#c9d1d9">macOS, Windows</tspan></text>
-<text x="545" y="117.5" xml:space="preserve" class="ln" style="animation-delay:0.48s"><tspan fill="#ffa657">Uptime: </tspan><tspan fill="#484f58">........... </tspan><tspan fill="#c9d1d9">6 years, 2 months, 15 days on GitHub</tspan></text>
+<text x="545" y="117.5" xml:space="preserve" class="ln" style="animation-delay:0.48s"><tspan fill="#ffa657">Uptime: </tspan><tspan fill="#484f58">........... </tspan><tspan fill="#c9d1d9">6 years, 2 months, 16 days on GitHub</tspan></text>
 <text x="545" y="138.0" xml:space="preserve" class="ln" style="animation-delay:0.54s"><tspan fill="#ffa657">Host: </tspan><tspan fill="#484f58">................................... </tspan><tspan fill="#c9d1d9">Egypt · Remote</tspan></text>
 <text x="545" y="158.5" xml:space="preserve" class="ln" style="animation-delay:0.60s"><tspan fill="#ffa657">Kernel: </tspan><tspan fill="#484f58">............. </tspan><tspan fill="#c9d1d9">Software Engineer &amp; Technical Lead</tspan></text>
 <text x="545" y="179.0" xml:space="preserve" class="ln" style="animation-delay:0.66s"><tspan fill="#ffa657">Stack: </tspan><tspan fill="#484f58">...... </tspan><tspan fill="#c9d1d9">.NET · React · WordPress · AI · Automation</tspan></text>
@@ -71,19 +71,19 @@
 <text x="545" y="384.0" xml:space="preserve" class="ln" style="animation-delay:1.26s"><tspan fill="#ffa657">Facebook: </tspan><tspan fill="#484f58">.............................. </tspan><tspan fill="#c9d1d9">Always.Sunny.19</tspan></text>
 <text x="545" y="425.0" xml:space="preserve" class="ln" style="animation-delay:1.38s"><tspan fill="#58a6ff">─ GitHub Stats </tspan><tspan fill="#484f58">─────────────────────────────────────────</tspan></text>
 <text x="545" y="445.5" xml:space="preserve" class="ln" style="animation-delay:1.44s"><tspan fill="#ffa657">Repos: </tspan><tspan fill="#484f58">.................... </tspan><tspan fill="#c9d1d9">84</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Languages: </tspan><tspan fill="#484f58">......... </tspan><tspan fill="#c9d1d9">12</tspan></text>
-<text x="545" y="466.0" xml:space="preserve" class="ln" style="animation-delay:1.50s"><tspan fill="#ffa657">Commits: </tspan><tspan fill="#484f58">................. </tspan><tspan fill="#c9d1d9">632</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Past year: </tspan><tspan fill="#484f58">. </tspan><tspan fill="#c9d1d9">637 contributions</tspan></text>
+<text x="545" y="466.0" xml:space="preserve" class="ln" style="animation-delay:1.50s"><tspan fill="#ffa657">Commits: </tspan><tspan fill="#484f58">................. </tspan><tspan fill="#c9d1d9">644</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#ffa657">Past year: </tspan><tspan fill="#484f58">. </tspan><tspan fill="#c9d1d9">649 contributions</tspan></text>
 <text x="545" y="486.5" xml:space="preserve" class="ln" style="animation-delay:1.56s"><tspan fill="#ffa657">Followers: </tspan><tspan fill="#484f58">........................................... </tspan><tspan fill="#c9d1d9">1</tspan></text>
-<text x="545" y="507.0" xml:space="preserve" class="ln" style="animation-delay:1.62s"><tspan fill="#ffa657">Lines of Code: </tspan><tspan fill="#c9d1d9">391,135</tspan><tspan fill="#484f58"> ( </tspan><tspan fill="#3fb950">418,787++</tspan><tspan fill="#484f58">, </tspan><tspan fill="#f85149">27,652--</tspan><tspan fill="#484f58"> )</tspan></text>
+<text x="545" y="507.0" xml:space="preserve" class="ln" style="animation-delay:1.62s"><tspan fill="#ffa657">Lines of Code: </tspan><tspan fill="#c9d1d9">394,105</tspan><tspan fill="#484f58"> ( </tspan><tspan fill="#3fb950">422,462++</tspan><tspan fill="#484f58">, </tspan><tspan fill="#f85149">28,357--</tspan><tspan fill="#484f58"> )</tspan></text>
 <line x1="26" y1="604" x2="994" y2="604" stroke="#30363d"/>
 <g class="foot">
 <text x="28" y="636" fill="#58a6ff" font-size="12">─ Languages</text>
 <clipPath id="lc"><rect x="28" y="646" width="430" height="14" rx="4"/></clipPath>
 <g clip-path="url(#lc)">
-<rect x="28.0" y="646" width="346.1" height="14" fill="#e34c26"/>
-<rect x="374.1" y="646" width="29.6" height="14" fill="#3178c6"/>
-<rect x="403.8" y="646" width="19.1" height="14" fill="#3572A5"/>
-<rect x="422.9" y="646" width="18.2" height="14" fill="#f1e05a"/>
-<rect x="441.1" y="646" width="12.6" height="14" fill="#178600"/>
+<rect x="28.0" y="646" width="345.9" height="14" fill="#e34c26"/>
+<rect x="373.9" y="646" width="29.7" height="14" fill="#3178c6"/>
+<rect x="403.6" y="646" width="19.1" height="14" fill="#3572A5"/>
+<rect x="422.7" y="646" width="18.2" height="14" fill="#f1e05a"/>
+<rect x="440.9" y="646" width="12.8" height="14" fill="#178600"/>
 <rect x="453.7" y="646" width="4.3" height="14" fill="#563d7c"/>
 </g>
 <circle cx="32" cy="674" r="4" fill="#e34c26"/>
